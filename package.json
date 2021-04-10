@@ -1,0 +1,28 @@
+{
+  "name": "homework-1.2",
+  "version": "1.0.0",
+  "description": "descr",
+  "main": "index.js",
+  "scripts": {
+        "build": "babel src -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dariy-mvs/ajs-homework1.2.git"
+  },
+  "author": "Marina Dariy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dariy-mvs/ajs-homework1.2/issues"
+  },
+  "homepage": "https://github.com/dariy-mvs/ajs-homework1.2#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15"
+  },
+  "dependencies": {
+    "core-js": "^3.10.1"
+  }
+}
